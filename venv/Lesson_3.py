@@ -1,0 +1,7 @@
+print('exercise 1')
+print('enter number of pupil: ')
+N = int(input())
+print('enter number of pupil: ')
+K = int(input())
+print('how many apples get any of the people?')
+print(K//N)
