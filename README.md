@@ -1,2 +1,0 @@
-# playWithPython
-familiarization with Python
