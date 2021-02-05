@@ -36,3 +36,16 @@ else:
         print('There is second quarter')
     else:
         print('There is third quarter')
+
+# exercise_4
+# convert 1,2,3 to words, for other print Other
+print('Enter the number')
+number = int(input())
+if number==1:
+    print('One')
+elif number==2:
+    print('Two')
+elif number==3:
+    print('Three')
+else:
+    print('Other number')
