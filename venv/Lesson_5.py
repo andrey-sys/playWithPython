@@ -1,4 +1,4 @@
-# if statement
+# if & elif statements
 
 # exercise_1
 # set any number and turn it to positive number
