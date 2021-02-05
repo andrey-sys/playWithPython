@@ -15,7 +15,7 @@ print('Enter first number')
 a = int(input())
 print('Enter second number')
 b = int(input())
-if a>=b:
+if a >= b:
     print(a)
 else:
     print(b)
@@ -41,11 +41,11 @@ else:
 # convert 1,2,3 to words, for other print Other
 print('Enter the number')
 number = int(input())
-if number==1:
+if number == 1:
     print('One')
-elif number==2:
+elif number == 2:
     print('Two')
-elif number==3:
+elif number == 3:
     print('Three')
 else:
     print('Other number')
