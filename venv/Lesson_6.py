@@ -9,3 +9,14 @@ while number<=100:
     number=number+1
 print('The end')
 
+# exercise_2
+# Find the maximum number value from the array
+print('Enter any numbers, and in the end of the array set zero: ')
+number=int(input())
+maxNumber = number
+while number!=0:
+    number=int(input())
+    if number!=0 and number>maxNumber: # if you change the sign up versa, you will get a smaller
+                                       # number in the array
+        maxNumber=number
+print(maxNumber)
