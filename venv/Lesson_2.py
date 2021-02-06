@@ -1,3 +1,4 @@
+# Data types and output functions
 expression = '10 + 10 = '
 answer = 10 + 10
 print(expression + str(answer))
