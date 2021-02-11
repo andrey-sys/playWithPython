@@ -10,6 +10,8 @@ phrase = input()
 print(phrase)
 print('      Benjamin Disraeli')
 
+#exercise_0
+print('multiply two numbers')
 print('enter number from 0 to 10, to multiply it')
 a = int(input())
 print('enter again number from 0 to 10, to multiply it')
@@ -17,6 +19,7 @@ b = int(input())
 print('your answer')
 print(a * b)
 
+print('print square of 100*100**2')
 print(int('100' * 100) ** 2)  # without int wouldn't work
 
 word = 'Bye'
