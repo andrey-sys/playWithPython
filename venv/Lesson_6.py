@@ -21,11 +21,21 @@
 #         maxNumber=number
 # print(maxNumber)
 
-# exercise_3
-# Count the sum of the array, to stop the array press zero and hit Enter button
-number = int(input('Enter the number: '))
-sumSeg = number
-while number!=0:
-    number = int(input('Enter the number: '))
-    sumSeg+=number
-print('There is a sum of your array: ', sumSeg)
+# # exercise_3
+# # Count the sum of the array, to stop the array press zero and hit Enter button
+# number = int(input('Enter the number: '))
+# sumSeg = number
+# while number!=0:
+#     number = int(input('Enter the number: '))
+#     sumSeg+=number
+# print('There is a sum of your array: ', sumSeg)
+
+# exercise_4
+# find the substring
+string = 'srfeabcvs desrg abc hoey abc'
+position = 0
+find_string = string.find('abc', position)
+while string.find('abc', position) != -1:
+    print('the positions of the substring: ', string.find('abc', position))
+    # find the position of the first sub string endless, so must+1
+    position = string.find('abc', position) + 1  # find the position of the rest substrings if it has

@@ -26,11 +26,11 @@ word = 'Bye'
 phrase = word * 3 + '!'
 print(phrase)
 
-print('Enter any number for getting remainder')
+print('Enter number bigger then 256 for getting remainder')
 n = int(input())
-print(n % 256)
+print('your remainder is',n % 256)
 
-print('Enter any number not lower than 100: you will get the root of the number')
+print('Enter number that represent square for number 2')
 number = int(input())
 print(2 ** number)
 
@@ -58,9 +58,3 @@ print('methods find & replace:')
 string = 'srfeabcvs desrg abc hoey abc'
 print(string.find('abc'))  # looking for substring "abc" the first one, and show the place of this
 # substring in the main string
-position = 0
-find_string = string.find('abc', position)
-while string.find('abc', position) != -1:  # find the substring
-    print('the positions of the substring: ', string.find('abc', position))
-    # find the position of the first sub string endless, so must+1
-    position = string.find('abc', position) + 1  # find the position of the rest substrings if it has
