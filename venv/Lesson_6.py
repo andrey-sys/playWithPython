@@ -42,7 +42,7 @@ while string.find('abc', position) != -1:
     # substrings if it has
 
 # or we can simplify it
-# find the substring into your string
+# find the position of your substring
 print('Enter new string: ')
 string = input()
 print('Enter new substring: ')
@@ -51,3 +51,25 @@ position = string.find(substring)
 while position!=-1:
     print('your positions: ',position)
     position=string.find(substring,position+1)
+
+# exercise_5
+# find & replace substring by another substring
+print('Enter the phrase: ')
+string = input()
+print('What word do you want to replace? ')
+sub_string = input()
+print('Enter new word: ')
+new_substring = input()
+print(string.replace(sub_string,new_substring))
+
+# exercise_6
+# find & replace
+print('Enter the phrase: ')
+phrase = input()
+print('Enter the sub phrase to replace: ')
+sub_phrase=input()
+print('Enter the new sub frase: ')
+new_subphrase = input()
+while phrase.find(sub_phrase)!=-1:
+    phrase= phrase.replace(sub_phrase,new_subphrase)
+    print(phrase)
