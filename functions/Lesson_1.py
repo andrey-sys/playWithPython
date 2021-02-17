@@ -1,5 +1,6 @@
 # functions
 
+# exercise_1
 def print_text(s):
     return print(s)
 
