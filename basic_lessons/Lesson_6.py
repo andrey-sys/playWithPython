@@ -1,4 +1,4 @@
-# while statement
+# while statement, find, replace, count
 
 # exercise_1
 # Complete up to a hundred
@@ -73,3 +73,8 @@ new_subphrase = input()
 while phrase.find(sub_phrase)!=-1:
     phrase= phrase.replace(sub_phrase,new_subphrase)
     print(phrase)
+
+# exercise_7
+# count the number of substrings or letters
+string = 'one can two can three can'
+print(string.count('can'))
