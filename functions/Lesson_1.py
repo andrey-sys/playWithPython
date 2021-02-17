@@ -1,7 +1,7 @@
 # functions
 
-def print_text(string):
-    return print(string)
+def print_text(s):
+    return print(s)
 
 
 def factorial(number):
@@ -12,4 +12,7 @@ def factorial(number):
     return result
 
 
-print(print_text('factorial of this number is: '), factorial(5))
+print_text('Enter any number: ')
+n = int(input())
+print_text('Your factorial is: ')
+print(factorial(n))
